@@ -13,6 +13,7 @@ class CalculatorTest {
         assertEquals(5, calc.add(2, 3));
     }
 
+    // valida si la division es un 2
     @Test
     void testDivision() {
         assertEquals(2, calc.divide(10, 5));
