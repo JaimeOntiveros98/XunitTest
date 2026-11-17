@@ -18,6 +18,7 @@ class CalculatorTest {
         assertEquals(2, calc.divide(10, 5));
     }
 
+    //test que permite o espera una excepcion
     @Test
     void testDivisionByZero() {
         assertThrows(ArithmeticException.class, () -> calc.divide(10, 0));
